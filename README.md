@@ -57,27 +57,21 @@ Une fois tous les liens recuperés, nous les avons rassemblé grace à une fonct
 
 ## Conclusion
 
+Cet projet nous a permis de pouvoir travailler sur un ensemble de packages et nous a permis de savoir recuperer des informations utiles d'un site. Mais malgre tout, notre projet se limite à quelques questions. 
+
+Limites: 
+- impossibilité de recuperer toutes informations à la fois car l'acces à shein est limité
+- trop complexe car beaucoup de liens à exploiter et donc projet tres long
+- difficulté d'enregister directement les images via les liens recuperés car liens differents 
 
 
+Perspectives et axes d'ameliorations
+
+-
+-
+-
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Conclusion
 
 
 
