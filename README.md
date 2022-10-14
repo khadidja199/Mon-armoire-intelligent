@@ -5,12 +5,12 @@ Ce projet a pour but de creer une armoire intelligente pour choisir le vetement 
 
 
 Notre plan se definie comme suit:
-- introduction 
-- choix de la meteo 
-- les tendences des vetements 
-- shein
--application
-- conclusion
+- Introduction 
+- Choix de la meteo 
+- Les tendences des vetements 
+- Shein
+-Application
+- Conclusion
 
 
 ## Introduction
@@ -32,6 +32,11 @@ En ce qui concerne le code, notre choix s'est porté sur le language de programm
 -pandas: gestion,nettoyage,filtrage de la base de données
 
 Ensuite, creer une fonction enregiste l'Url, selectionne dans l'ur
+
+
+
+
+
 
 
 
