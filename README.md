@@ -39,7 +39,7 @@ Pour realiser notre objectif, nous nous sommes muni du language de programmation
 -pandas: gestion,nettoyage,filtrage de la base de données
 
 Ensuite, dans une fonction ,nous avons recuperer les liens url de shein. Une fois le lien recuperé, nous avons extrait les differents liens et noms de vetement grace à la library Beautifulsoup, que nous avons ensuite enregistré dans des differents fichiers excel. Ces fichiers regroupent donc les liens de vetements par type de vetements(Manteaux,Vestes,pulls,robes) et par style(casual,Boheme,sexy et elegent). Par exemple, pour le style casual,nous avons creer 5 fichiers(robe casual,pull casual,veste casual)dans lesquelles nous les avons enregistré dans un dossier casual. Et ceci pour les autre style de vetement comme Sexy,elegent et Boheme.
-Une fois tous les liens recuperer, nous les avons rassembler grace à une fonction que nous avons appelé "Application".
+Une fois tous les liens recuperés, nous les avons rassemblé grace à une fonction que nous avons appelé "Application".
 
 
 ## Application
