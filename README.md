@@ -2,7 +2,7 @@
 
 *** Architectures, modèles et langages de données - projet de groupe***
 
-*Al Bakaoui Chayma, AmadoU Khadidja, Harutyunyan Mariam*
+*Al Bakaoui Chayma, Amadou Khadidja, Harutyunyan Mariam*
 
 Plan du travail 
 
