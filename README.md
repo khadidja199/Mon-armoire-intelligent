@@ -250,15 +250,3 @@ Tout cela dans le but de créer un algorithme qui saurait de quel type et de que
 Référence pour les recommandations de vêtements:
 - https://fr.shein.com/?url_from=frbingbrandshein_shein04_20210207&msclkid=4286594882dc15e7c79b3a02518f644e
 
-Référence pour les tendances du style bohème:
-- https://www.cosmopolitan.fr/,comment-porter-le-look-boheme-chic,2178,1503525.asp#:~:text=C'est%20quoi%20le%20style,rime%20avec%20confort%20et%20l%C3%A9g%C3%A8ret%C3%A9
-
-Référence pour les tendances du style casual:
-- https://www.elle.fr/Mode/Mode-street-style/style-casual
-
-Référence pour le style sexy:
-- https://www.clindoeil.ca/2022/04/17/comment-porter-la-tendance-sexy-de-2022-les-decoupes
-
-Référence pour le style élégant:
-- https://archzine.fr/mode-et-beaute/tenue-simple-et-chic-tendance-intemporelle-274839/
-
