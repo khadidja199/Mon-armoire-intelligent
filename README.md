@@ -19,15 +19,15 @@ Plan du travail
 
 Nous ne pouvons le nier, il est toujours difficile de choisir la tenue idéale le matin. Quel style de vêtement ? Quel type de vétêments ? Pour quelle température ? Ceux sont pleins de facteurs qui entrent en jeu lors du processus de décision.
 
-Nous sommes partiS de ce dilemme pour créer un programme qui nous propose LA tenue en fonction de notre style (casual, bohème, élegant etc), du type de vêtement (pantalon, robe, veste etc) et de la température du jour de notre ville. 
+Nous sommes parties de ce dilemme pour créer un programme qui nous propose LA tenue en fonction de notre style (casual, bohème, élegant et sexy), du type de vêtement (pantalon, robe, veste etc) et de la température du jour de notre ville. 
 
 ---
 
 ## Objectif
 
-Par le Web Scrapping, nous avons automatisé notre outil, afin qu'il puisse vous fournir une expérience de décision des plus simple et efficace.
+Par le Web Scrapping, nous avons automatisé notre outil afin qu'il puisse vous fournir une expérience de décision des plus simples et efficaces.
 
-Le choix du site à scrapper repose essentiellement sur le renseignement du style des vetêments. En effet, tous les sites de vente en ligne ne nous informe pas sur le style de leur articles. Nous avons également choisi arbitrairement de cibler une clientèle féminine bien que la logique du code puisse être appliquée également à partir de la catégorie homme. Dans ce cas, l'```url``` à scrapper sera différent : il correspondra au lien renvoyant à la page de vetêments pour homme.
+Le choix du site à scrapper repose essentiellement sur le renseignement du style des vetêments. En effet, tous les sites de vente en ligne ne nous informent pas sur le style de leurs articles. Nous avons également choisi arbitrairement de cibler une clientèle féminine bien que la logique du code puisse être appliquée également à la catégorie homme. Dans ce cas, l'```url``` à scrapper sera différent : il correspondra au lien renvoyant à la page de vetêments pour hommes.
 
 Nous avons choisi le site Shein.fr, une grande entreprise chinoise en plein essor de vente en ligne (et désormais sur point de vente). 
 
@@ -85,7 +85,7 @@ def temperature(ville):
 
 ## Récupération des données sur Shein
 
-Après avoir préalablement installé les packages nécessaires, vient l'étape de la récupération des données depuis le site Shein. Nous avons selectionnés le type de vêtement ainsi que le style afin de récupérer les liens correspondants. Nous nous sommes focalisé sur ces differents critères car ils nous semblaient les plus importants. Ainsi, nous avons pu extraire plus de  240 noms de vêtements différents, quatre styles (casual, bohème, sexy, élegant) et sept types de vêtements (manteaux, vestes, pantalons, pull, tshirt, robe, jupe).
+Après avoir préalablement installé les packages nécessaires, vient l'étape de la récupération des données depuis le site Shein. Nous avons selectionné le type de vêtement ainsi que le style afin de récupérer les liens correspondants. Nous nous sommes focalisées sur ces differents critères car ils nous semblaient les plus importants. Ainsi, nous avons pu extraire plus de  240 noms de vêtements différents, quatre styles (casual, bohème, sexy, élegant) et sept types de vêtements (manteau, veste, pantalon, pull, tshirt, robe, jupe).
 
 ```
 
@@ -117,7 +117,7 @@ Après avoir fait cela pour tous nos styles et tous nos types, on enregistre nos
 
 ## Création de la fonction globale
 
-Une fois que nous avons les ```urls``` pour chacun de nos styles et chacun de nos types de vêtements enregistrés dans des fichiers sur le système d'exploitation, on passe à la partie la plus importante à savoir paramétrer notre programme. De ce fait et à l'aide du code ci-dessous, nous créeons un code qui récupère les informations correspondantes au style choisi par l'utilisateur. 
+Une fois que nous avons les ```urls``` pour chacun de nos styles et chacun de nos types de vêtements enregistrés dans des fichiers sur le système d'exploitation, on passe à la partie la plus importante à savoir paramétrer notre programme. De ce fait et à l'aide du code ci-dessous, nous créons un code qui récupère les informations correspondantes au style choisi par l'utilisateur. 
 
 ```
 
@@ -234,11 +234,31 @@ Ce projet peut faire l'objet d'une ouverture intéressante. En effet, nous pourr
 - labelliser nos images par type et par style
 - à l'aide du réseau neuronal convolutif, classifier nos images
 
-Tout cela dans le but de créer un algorithme qui serai de quel type et de quel style appartient une nouvelle image qui n'est pas préenregistrer dans sa base de données. 
+Tout cela dans le but de créer un algorithme qui saurait de quel type et de quel style appartient une nouvelle image qui n'est pas préenregistrée dans sa base de données. 
 
 **Merci !**
 
 
 
 
+
+---
+
+## Sources:
+
+
+Référence pour les recommandations de vêtements:
+- https://fr.shein.com/?url_from=frbingbrandshein_shein04_20210207&msclkid=4286594882dc15e7c79b3a02518f644e
+
+Référence pour les tendances du style bohème:
+- https://www.cosmopolitan.fr/,comment-porter-le-look-boheme-chic,2178,1503525.asp#:~:text=C'est%20quoi%20le%20style,rime%20avec%20confort%20et%20l%C3%A9g%C3%A8ret%C3%A9
+
+Référence pour les tendances du style casual:
+- https://www.elle.fr/Mode/Mode-street-style/style-casual
+
+Référence pour le style sexy:
+- https://www.clindoeil.ca/2022/04/17/comment-porter-la-tendance-sexy-de-2022-les-decoupes
+
+Référence pour le style élégant:
+- https://archzine.fr/mode-et-beaute/tenue-simple-et-chic-tendance-intemporelle-274839/
 
