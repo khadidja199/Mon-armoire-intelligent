@@ -85,7 +85,7 @@ def temperature(ville):
 
 ## Récupération des données sur Shein
 
-Après avoir préalablement installé les packages nécessaires, vient l'étape de la récupération des données depuis le site Shein. Nous avons selectionnés le type de vêtement ainsi que le style afin de récupérer les liens correspondants. Nous nous sommes focalisé sur ces differents critères car ils nous semblaient les plus importants. Ainsi, nous avons pu extraire plus de  240 noms de vêtements différents, quatre styles (sasual, bohème, sexy, elegant) et sept types de vêtements (manteaux, vestes, pantalons, pull, tshirt, robe, jupe).
+Après avoir préalablement installé les packages nécessaires, vient l'étape de la récupération des données depuis le site Shein. Nous avons selectionnés le type de vêtement ainsi que le style afin de récupérer les liens correspondants. Nous nous sommes focalisé sur ces differents critères car ils nous semblaient les plus importants. Ainsi, nous avons pu extraire plus de  240 noms de vêtements différents, quatre styles (casual, bohème, sexy, élegant) et sept types de vêtements (manteaux, vestes, pantalons, pull, tshirt, robe, jupe).
 
 ```
 
@@ -136,7 +136,7 @@ for style in styles:
         data_final = pd.concat(frames)
 
 ```
-Après avoir récupérer le style de vêtement, nous définissons quel type proposer à l'utilisateur en fonction de la température locale du jour et tout cela aléatoirement à l'aide d'une uniforme.
+Après avoir récupére le style de vêtement, nous définissons quel type proposer à l'utilisateur en fonction de la température locale du jour et tout cela aléatoirement à l'aide d'une uniforme.
 
 ```
 
