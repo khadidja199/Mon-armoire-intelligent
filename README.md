@@ -2,7 +2,7 @@
 
 *** Architectures, modèles et langages de données - projet de groupe***
 
-*Al Bakaoui Chayma, Amadon Khadidja, Harutyunyan Mariam*
+*Al Bakaoui Chayma, AmadoU Khadidja, Harutyunyan Mariam*
 
 Plan du travail 
 
@@ -19,7 +19,7 @@ Plan du travail
 
 Nous ne pouvons le nier, il est toujours difficile de choisir la tenue idéale le matin. Quel style de vêtement ? Quel type de vétêments ? Pour quelle température ? Ceux sont pleins de facteurs qui entrent en jeu lors du processus de décision.
 
-Nous sommes parti de ce dilemme pour créer un programme qui nous propose LA tenue en fonction de notre style (casual, bohème, élegant etc), du type de vêtement (pantalon, robe, veste etc) et de la température du jour de notre ville. 
+Nous sommes partiS de ce dilemme pour créer un programme qui nous propose LA tenue en fonction de notre style (casual, bohème, élegant etc), du type de vêtement (pantalon, robe, veste etc) et de la température du jour de notre ville. 
 
 ---
 
@@ -228,7 +228,7 @@ Une autre difficulté ou plutôt limite du ```smart wardrobe``` et l'importance 
 
 2. Ouverture
 
-Ce projet peut faire l'objet d'une ouverture intéressante. En effet, nous pourrions l'étendre au domaine du machine learning. L'idée serai de :
+Ce projet peut faire l'objet d'une ouverture intéressante. En effet, nous pourrions l'étendre au domaine du machine learning. L'idée serait de :
 
 - convertir les ```urls``` des images en vecteurs
 - labelliser nos images par type et par style
